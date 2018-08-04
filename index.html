@@ -18,6 +18,10 @@
 
     <link rel="stylesheet" href="css/estilos.css">
 
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v3"></script>
+
+    <link rel="stylesheet" href="botones/style.css">
+
   </head>
 
   <body id="page-top">
@@ -184,14 +188,19 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <center><h2>¡Encuentranos en!</h2></center>
-            <center><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.4748393491222!2d-99.16023958874248!3d19.435083838184564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8cda390c09d%3A0x4fa86fc0dd3e0d9e!2sSadi+Carnot+68%2C+San+Rafael%2C+06470+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1532548524080" width="450" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></p>
-              <p class="lead"><img src="IMAGENES/LOGOS/1234.png" width="40" height="40" align="center"> Sandi Carnot No.68 Col. San Rafael Delegación. </p>
-              <p class="lead">Cuauhtémoc, México, CDMX (cerca del Monumento a la Revolución). </p>
+            <center><h2>¡Encuentranos en!</h2>
+            <div id="mapa"  class="contenedor">
+              <script type="text/javascript" src="js/mapa.js"></script>
             </center>
+            </div>
           </div>
         </div>
       </div>
+      <p align="center">
+        <a href="https://goo.gl/maps/m4zwnmFrQdr" class="button blue radius">
+        <span class="icon-map"></span>¿Como llegar?
+        </a>
+      </p>
     </section>
     <!-- /quinta sección-->
 
@@ -202,12 +211,12 @@
       <div class="container">
         <p class="m-0 text-center text-white"><b>!SIGUENOS EN NUESTRA REDES SOCIALES¡</b></p>
         <center>
-            <a href="https://www.youtube.com/?hl=es-419&gl=MX"><img src="IMAGENES/LOGOS/youtube.png" widht="55" height="55"></a>
+            <a href="https://www.youtube.com/?hl=es-419&gl=MX"><img src="IMAGENES/LOGOS/youtube.png" widht="50" height="50"></a>
             <a href="https://es-la.facebook.com/"><img src="IMAGENES/LOGOS/Facebook.png" widht="50" height="50"></a>
             <a href="https://www.instagram.com/?hl=es-la"><img src="IMAGENES/LOGOS/instagram.png" widht="50" height="50"></a>
-            <a href="https://twitter.com/?lang=es"><img src="IMAGENES/LOGOS/twitter.png" widht="60" height="60"></a>
+            <a href="https://twitter.com/?lang=es"><img src="IMAGENES/LOGOS/twitter.png" widht="48" height="48"></a>
           </center>
-
+         
           <p class="m-0 text-white" align="right"><b>&copy; 2018 | Derechos Reservados | "PDMU"| </b></p>
 
       </div>
@@ -224,10 +233,12 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
+
+    <!-- Slider-->
+    <script src="js/slider.js" charset="utf-8"></script>
+
     <script src="js/jquery.js"></script>
     <script src="js/jquery.superslides.js"></script>
-    <!-- Slider-->
-<script src="js/slider.js" charset="utf-8"></script>
   </body>
 
 </html>
